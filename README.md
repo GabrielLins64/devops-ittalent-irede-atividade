@@ -9,9 +9,10 @@
 <h2>Índice</h2>
 
 - [Descrição da Atividade](#descrição-da-atividade)
+- [Comandos para subir e entrar no container:](#comandos-para-subir-e-entrar-no-container)
 - [Screenshots](#screenshots)
   - [Teste na máquina local (host)](#teste-na-máquina-local-host)
-
+  - [Criando e executando o container](#criando-e-executando-o-container)
 
 ---
 
@@ -34,8 +35,22 @@ A avaliação será feita pelos commits no github, você deve responder com o li
 
 ---
 
+## Comandos para subir e entrar no container:
+
+```shell
+docker build -t devops-networking-img:latest .
+docker run -dit --rm --name devops-networking-ctr devops-networking-img:latest
+docker exec -it devops-networking-ctr bash
+```
+
+---
+
 ## Screenshots
 
 ### Teste na máquina local (host)
 
 ![Teste do script na maquina local](imgs/script_local.png)
+
+### Criando e executando o container
+
+![Criando e executando o container](imgs/docker_1.png)
