@@ -13,6 +13,7 @@
 - [Screenshots](#screenshots)
   - [Teste na máquina local (host)](#teste-na-máquina-local-host)
   - [Criando e executando o container](#criando-e-executando-o-container)
+  - [Teste no container (guest)](#teste-no-container-guest)
 
 ---
 
@@ -54,3 +55,7 @@ docker exec -it devops-networking-ctr bash
 ### Criando e executando o container
 
 ![Criando e executando o container](imgs/docker_1.png)
+
+### Teste no container (guest)
+
+![Teste do script no container](imgs/script_docker.png)
