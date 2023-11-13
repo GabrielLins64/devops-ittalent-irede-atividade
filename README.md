@@ -10,6 +10,7 @@
 
 - [Descrição da Atividade](#descrição-da-atividade)
 - [Screenshots](#screenshots)
+  - [Teste na máquina local (host)](#teste-na-máquina-local-host)
 
 
 ---
@@ -34,3 +35,7 @@ A avaliação será feita pelos commits no github, você deve responder com o li
 ---
 
 ## Screenshots
+
+### Teste na máquina local (host)
+
+![Teste do script na maquina local](imgs/script_local.png)
